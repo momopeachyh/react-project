@@ -9,7 +9,9 @@ function StateHook() {
   });
   return (
     <div className="StateHook">
-      <h1>The special car is {car.color}.</h1>
+      <h1 style={{ backgroundColor: "lightblue" }}>
+        The special car is {car.color}.
+      </h1>
       <h1>The car model is {car.model}</h1>
       <button onClick={() => setCar({ ...car, color: "yellow" })}>
         Change color
