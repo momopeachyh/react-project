@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-// import App from "./App";
+import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 // import TodoComponent from "./TodoComponent.js";
 // import FunctionalComp from "./FunctionalComp.js";
@@ -11,20 +11,16 @@ import reportWebVitals from "./reportWebVitals";
 // import EffectNew from "./EffectNew.js";
 // import Component1 from "./Component1.js";
 // import RefHook from "./RefHook.js";
-import Playground from "./Playground.js";
+// import Playground from "./Playground.js";
+// import FirstComponent from "./FirstComponent";
+// import ParentToChild from "./ParentToChild.js";
+// import TwoWayBind from "./TwoWayBind";
+// import FormPrac from "./FormPrac"
+// import Form from "./Form.js";
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
-    {/* <TodoComponent name="Philward" />
-    <FunctionalComp city="Philadelphia" />
-    <NewComponent />
-    <StateHook />
-    <EffectHook />
-    <EffectNew />
-    <Component1 />
-    <RefHook />  */}
-    <Playground />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

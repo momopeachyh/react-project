@@ -5,6 +5,8 @@ class NewComponent extends React.Component {
     super();
     this.state = {
       age: 35,
+      name: "Philward",
+      favorite_color: "magenta",
     };
   }
   render() {
@@ -16,8 +18,7 @@ class NewComponent extends React.Component {
     );
   }
   newFunc = () => {
-    console.log("Hi");
-    this.setState({ age: "hi" });
+    this.setState({ age: 46 });
   };
 }
 
